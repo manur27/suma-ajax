@@ -19,3 +19,9 @@ function sumaAJAX(num1, num2){
         }
     });
 }
+
+$(document).ready(function(){ 
+	$('input').on('input', function () {
+        this.value = this.value.replace(/[^0-9.]/g, '');
+      });
+	});
