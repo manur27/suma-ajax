@@ -42,10 +42,6 @@ function sumaAJAX(num1, num2){
         if (charCode == 45 && el.value.charAt(0) == "-") {
           return false;
         }
-        var dotPos = el.value.indexOf(".");
-        if (caratPos > dotPos && dotPos > -1 && (number[1].length > 1)) {
-          return false;
-        }
         else{
           return true;
         }
