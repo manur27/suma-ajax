@@ -6,7 +6,7 @@ function sumaAJAX(num1, num2){
 
     $.ajax({
         data: sumandos,
-        url: '../suma-ajax.php',
+        url: 'suma-ajax.php',
         type: 'POST',
         beforeSend: function(){
             $('#total-suma').html('Procesando valores...');
